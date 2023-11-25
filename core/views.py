@@ -5,3 +5,6 @@ def home(request):
 
 def about(request):
     return render(request,"core/about.html")
+
+def support(request):
+    return render(request,"core/support.html")
