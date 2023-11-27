@@ -1,0 +1,17 @@
+El modelo de comentarios esta relacionado por medio de fk con el modelo de albumes,
+ya que cada album tiene sus comentarios asociados.
+estos a su vez tambien lo estan con un usuario en especifico, en este caso, del usuario editor.
+
+
+La cuenta de superusuario es:
+
+username: root
+password: root
+
+El otro usuario, puede editar y crear comentarios, del modelo comments
+este usuario es:
+
+username: editor
+password: editor123456
+
+
