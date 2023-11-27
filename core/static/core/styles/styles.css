@@ -62,7 +62,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #d6d3d3;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -102,6 +102,9 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-shadow: 2px -1px 400px -55px rgba(0,0,0,1) inset;
+-webkit-box-shadow: 2px -1px 400px -55px rgba(0,0,0,1) inset;
+-moz-box-shadow: 2px -1px 400px -55px rgba(0,0,0,1) inset;
 }
 
 hr {
@@ -639,6 +642,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -3752,6 +3756,9 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  box-shadow: -3px -7px 18px -9px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: -3px -7px 18px -9px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: -3px -7px 18px -9px rgba(0,0,0,0.75) inset;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -10823,4 +10830,12 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+.titulo {
+  font-weight: 900;
+}
+
+.img-banner {
+  height: 750px;
 }

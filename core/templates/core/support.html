@@ -1,7 +1,36 @@
 {%extends 'core/base.html'%}
+{%load static%}
+{%block banner%}
+
+    <img class="img-banner w-100" src="{% static '/core/img/banner.jpg' %}" alt="Banner">
+    
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+        <h1 class="display-4 titulo">Soporte</h1>
+        <h3 class="font-weight-bold" style="color: #B31312;">Necesitas ayuda?</h3>
+    </div>
+
+{%endblock%}
+
 
 {%block content%}
 
-<h1> Tienes algun problema? Contactanos! </h1>
+
+
+<h1 class="mt-5 mb-5">¿Tienes algún problema? Deja tu correo y te contactaremos</h1>
+
+<div class="mb-5 mt-5">
+    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+
+<div class="mb-5">
+    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+<button class="btn btn-primary mb-5" type="button">Contactar</button>
+
+
+
 
 {%endblock%}

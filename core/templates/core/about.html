@@ -1,7 +1,24 @@
 {% extends "core/base.html" %}
 
+{%load static%}
+{%block banner%}
+
+    <img class="img-banner w-100" src="{% static '/core/img/banner.jpg' %}" alt="Banner">
+    
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+        <h1 class="display-4 titulo">Tienda</h1>
+        <h3 class="font-weight-bold" style="color: #B31312;">Consigue discos </h3>
+    </div>
+
+{%endblock%}
+
 {%block content%}
 
-<h1>Sobre nosotros</h1>
+<h2 class="mt-5 mb-5">¿Quiénes somos?</h2>
+
+<p>En DarkSymphony, nos dedicamos apasionadamente a la venta de discos de metal de alta calidad. Nos esforzamos por ser más que una tienda: somos una comunidad de amantes del metal comprometidos a ofrecer una amplia gama de álbumes, desde los clásicos hasta las últimas novedades.</p>
+<p>Nuestra misión es proporcionar a los fanáticos del metal un lugar donde puedan encontrar y disfrutar de la mejor música. Nos enorgullecemos de tener una colección diversa y cuidadosamente seleccionada que abarca diversos subgéneros del metal.</p>
+<p>Con el compromiso de satisfacer las necesidades de nuestros clientes, trabajamos constantemente para mejorar la experiencia de compra, ofreciendo una navegación sencilla, excelentes servicios y una atención al cliente excepcional.</p>
+<p class="mb-5">¡Únete a nuestra comunidad y sumérgete en el mundo de la música metal!</p>
 
 {%endblock%}

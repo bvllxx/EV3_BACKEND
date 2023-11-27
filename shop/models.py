@@ -1,15 +1,19 @@
 from django.db import models
 
-class ImgProducts(models.Model):
-    #id = models.AutoField(_(""))
-    name = models.CharField(max_length=80,verbose_name="Nombre")
-    description = models.TextField(verbose_name="Descripcion")
-    price = models.FloatField(verbose_name="Precio")
+class Album(models.Model):
+    product_id = models.CharField(max_length=4)
+    title = models.CharField(max_length=100)
+    band_name = models.CharField(max_length=50)
+    release_year = models.PositiveIntegerField()
+    subgenre = models.CharField(max_length=50)
+    description = models.TextField()
+    price_clp = models.DecimalField(max_digits=10, decimal_places=6)  
     image = models.ImageField(upload_to='projects', verbose_name="Foto")
+    stock = models.IntegerField()
 
     class Meta:
-        verbose_name="Tienda"
-        verbose_name_plural="Tienda"
+        verbose_name="Album"
+        verbose_name_plural="Albums"
 
     def __str__(self):
-        return self.name
+        return self.title

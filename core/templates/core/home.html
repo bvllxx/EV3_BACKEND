@@ -1,7 +1,66 @@
 {% extends "core/base.html" %}
+{%load static%}
+
+{%block banner%}
+
+    <img class="img-banner w-100" src="{% static '/core/img/banner.jpg' %}" alt="Banner">
+    
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+        <p class="display-4 titulo">DarkSymphony</p>
+        <h3 class="font-weight-bold" style="color: #B31312;">Encuentra tus álbumes favoritos, desde clásicos legendarios hasta las últimas novedades.</h3>
+    </div>
+    
+{%endblock%}
 
 {%block content%}
 
-<h1>Pagina de inicio</h1>
+<div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="col-lg-6 px-0">
+      <h1 class="display-4 fst-italic">Especial Death Metal chileno</h1>
+      <p class="lead my-3" >Esta ocasión tengo para recomendar los siguientes discos que seguramente estarán entre lo mejor del año por su gran nivel compositivo, su capacidad técnica y la visceralidad de sus propuestas.</p>
+      <p class="lead mb-0"><a href="/blog/" class="text-body-emphasis fw-bold">Seguir leyendo...</a></p>
+    </div>
+</div>
+
+<p>Destaccados</p>
+
+<div class="row g-5">
+    <div class="col-md-8">
+
+        <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-4">5 Bandas de death metal tecnico</h2>
+            <p class="blog-post-meta">Noviembre 24, 2023</p>
+
+            <p>El death metal técnico es un subgénero que combina la brutalidad del death metal con la complejidad técnica de la música progresiva. Aquí te presentamos cinco bandas que destacan en este género y que definitivamente deberías escuchar:</p>
+
+            <hr>
+
+            
+            <h3>Necrophagist</h3>
+            <p>Esta banda alemana ha dejado una huella significativa en la escena del death metal técnico. Su álbum "Epitaph" (2004) es reverenciado por su complejidad técnica y virtuosismo. La destreza en las guitarras, los intrincados solos y los ritmos veloces los han convertido en un referente del género. Necrophagist fusiona brutalidad con melodías complejas y estructuras poco convencionales, elevando su música a un nivel de precisión técnica sin igual.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/upIHbIJTWxw?si=AD0Jxi9H8gW56xkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <hr>
+
+            <h3>Obscura</h3>
+            <p>Reconocidos por su capacidad para fusionar complejidad técnica con melodías cautivadoras, Obscura es una banda alemana que ha dejado su marca en el death metal progresivo y técnico. Álbumes como "Cosmogenesis" (2009) y "Diluvium" (2018) destacan por sus estructuras intrincadas, la ejecución virtuosa de las guitarras y una instrumentación que desafía los límites del género.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mesr2siegRg?si=W3YL35e7SEZydQ8f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h3>Beyond Creation</h3>
+            <p>Originarios de Canadá, Beyond Creation es conocido por su enfoque progresivo y técnico en el death metal. "The Aura" (2011) es un ejemplo representativo de su estilo, que combina ritmos complejos, cambios de tiempo y ejecución instrumental excepcional. La banda se destaca por su habilidad para entrelazar estructuras técnicas con melodías expansivas, ofreciendo una experiencia auditiva única.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/v0MkJtI3FvU?si=CJmbHs66ahrh3LG_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h3>Spawn of Possesion</h3>
+            <p> Esta banda sueca ha dejado su marca en el death metal técnico con su álbum "Incurso" (2012). Con una mezcla de velocidad, complejidad y precisión, la banda exhibe un virtuosismo instrumental que desafía los límites del género. Su música está marcada por una combinación única de brutalidad y habilidad técnica, creando un paisaje sonoro diverso y extremadamente técnico.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AfLEN_cbBf8?si=jvi8DqcKRVbjfFLa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h3>Archspire</h3>
+            <p>Originarios de Canadá, Archspire es conocido por su enfoque implacablemente rápido y técnico en el death metal. Con álbumes como "The Lucid Collective" (2014) y "Relentless Mutation" (2017), la banda muestra una ejecución instrumental vertiginosa y compleja. La velocidad, precisión y complejidad de sus composiciones desafían los límites de la ejecución técnica, llevando al oyente a un viaje acelerado y desafiante.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oiY4zwcjt-s?si=rRm2h9tszY5JduzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </article>
+
+</div>
+
 
 {%endblock%}

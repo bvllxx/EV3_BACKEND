@@ -1,0 +1,96 @@
+{%extends 'core/base.html'%}
+
+
+{%load static%}
+
+{%block banner%}
+
+    <img class="img-banner w-100" src="{% static '/core/img/banner.jpg' %}" alt="Banner">
+    
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+        <h1 class="display-4 titulo">Posts</h1>
+        <h3 class="font-weight-bold" style="color: #B31312;">Texto de descripcion</h3>
+    </div>
+    
+
+{%endblock%}
+
+
+{%block content%}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4">
+                    <!-- Post title-->
+                    <h1 class="fw-bolder mb-1">Recomendaciones breves – Especial Death Metal chileno</h1>
+                    <!-- Post meta content-->
+                    <div class="text-muted fst-italic mb-2">Posted on November 28, 2023</div>
+                    <!-- Post categories-->
+                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Death Metal</a>
+                </header>
+                <!-- Preview image figure-->
+                <figure class="mb-4"><img class="img-fluid rounded" src="{% static '/core/img/post.jpg' %}" alt="..." /></figure>
+                <!-- Post content-->
+                <section class="mb-5">
+                    <p class="fs-5 mb-4">Chile ya desde hace años nos viene entregando grandes discos del género, consolidándose con gran fuerza como uno de los países de la región con una de las mejores escenas del death en el mundo.</p>
+
+                    <p class="fs-5 mb-4">Una escena donde bandas como Pentagram (Chile), Sadism, Atomic Aggressor, Torturer, Criminal, Coprófago, Thornafire, Unaussprechlichen Kulten, los mismos Inanna, entre muchas otras, han ido pavimentando el camino para toda esta movida.  </p>
+
+                    <p class="fs-5 mb-4">Esta ocasión tengo para recomendar los siguientes discos que seguramente estarán entre lo mejor del año por su gran nivel compositivo, su capacidad técnica y la visceralidad de sus propuestas, las cuales no solo se destacan por las influencias que puedan tener, sino por las propuestas propias de cada banda.</p>
+
+                    <h2 class="fw-bolder mb-4 mt-5">Inanna – Void of Unending Depths (2022)</h2>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RUek2tfMlrc?si=mJH1NC6D1Zp8FC0y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <p class="fs-5 mb-4">Provenientes de Santiago de Chile, y compuesta por Max Neira en el bajo y las voces (Coffin Curse); Diego Ilabaca en las guitarras; Carlos Fuentes en la batería (Coffin Curse, Sol Sistere, Throne of Evil); y Cristóbal González en las otras guitarras (Trimegisto).</p>
+                    <p class="fs-5 mb-4">Los Inanna ya vienen descollando desde el 2008 con su disco debut Converging Ages, el cual es también un muy buen disco; pero principalmente con su joya Transfigured in a Thousand Delusions del 2012, el cual es una demostración maravillosa de death técnico, muy en la vena de grandes bandas como StarGazer, VoidCeremony, The Chasm, etc.; disco con el cual descubrí esta banda.  </p>
+                    <p class="fs-5 mb-4">El trabajo realizado en cada canción es apreciablemente denso pero fácil en su movimiento, todo centrado en el equilibrio correcto de delicadeza y brutalidad que la banda siempre ha buscado; en canciones que transportan a lo desconocido, forzando la evolución de la mente y que expande los límites sonoros del death metal.</p>
+
+
+                    <h2 class="fw-bolder mb-4 mt-5">Suppression – The Sorrow of Soul Through Flesh (2022)</h2>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uW-HToBiq-0?si=fqqUX_01f0CfePYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <p class="fs-5 mb-4">Con claras influencias de la vieja escuela como Death y Obituary, mas la cantidad correcta de metal moderno y la delicadeza técnica; el sonido del disco mantiene las cosas frescas, la banda se ha ganado un nombre considerable gracias a este debut, el cual busca establecerlos como una banda a seguir, cosa que aquí en los abismos definitivamente ya lo hacemos.</p>
+
+                    <p class="fs-5 mb-4">The Sorrow Of Soul Through Flesh posee maestría musical en todos los instrumentos ejecutados de manera fantástica, haciendo un guiño considerable al sonido técnico y clásico del género, que atraerá definitivamente a los fanáticos del death metal de todas las tendencias y marcará la dirección de la música de la banda en el futuro, gracias a la excelente composición de las canciones, con sus riffs memorables y su capacidad para incorporar influencias sin perder nunca su base OSDM y thrash, otro disco que seguramente veremos en varias listas de fin de año. </p>
+
+
+                    <h2 class="fw-bolder mb-4 mt-5">Mortify (Chile) - Fragments at the Edge of Sorrow (Album 2022)</h2>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GKdZF3EBucs?si=SHOrQi31m2hobUWW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <p class="fs-5 mb-4">Con claras influencias de la vieja escuela como Death y Obituary, mas la cantidad correcta de metal moderno y la delicadeza técnica; el sonido del disco mantiene las cosas frescas, la banda se ha ganado un nombre considerable gracias a este debut, el cual busca establecerlos como una banda a seguir, cosa que aquí en los abismos definitivamente ya lo hacemos.</p>
+
+                    <p class="fs-5 mb-4">The Sorrow Of Soul Through Flesh posee maestría musical en todos los instrumentos ejecutados de manera fantástica, haciendo un guiño considerable al sonido técnico y clásico del género, que atraerá definitivamente a los fanáticos del death metal de todas las tendencias y marcará la dirección de la música de la banda en el futuro, gracias a la excelente composición de las canciones, con sus riffs memorables y su capacidad para incorporar influencias sin perder nunca su base OSDM y thrash, otro disco que seguramente veremos en varias listas de fin de año. </p>
+                   
+                </section>
+            </article>
+            
+        </div>
+        <!-- Side widgets-->
+        <div class="col-lg-4">
+            <!-- Search widget-->
+            <div class="card mb-4">
+                <div class="card-header">Buscar</div>
+                <div class="card-body">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Buscar algo aaaa" aria-label="Enter search term..." aria-describedby="button-search" />
+                        <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Side widget-->
+            <div class="card mb-4">
+                <div class="card-header">Actividad</div>
+                <div class="card-body">ola profe no supe que poner aqui no nos ponga mala nota D:!</div>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}
